@@ -73,9 +73,86 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Product_Grouping__c</fullName>
+        <description>Product grouping</description>
+        <externalId>false</externalId>
+        <label>Product Grouping</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Portfolio__c</fullName>
+        <description>Product portfolio</description>
+        <externalId>false</externalId>
+        <label>Product Portfolio</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <description>Product type</description>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Weight__c</fullName>
+        <description>Weight of product</description>
+        <externalId>false</externalId>
+        <label>Product Weight</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>QuantityUnitOfMeasure</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>eTax_Delivery_Code__c</fullName>
+        <description>eTax delivery code</description>
+        <externalId>false</externalId>
+        <label>eTax Delivery Code</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>eTax_Duty_Paid_Code__c</fullName>
+        <description>eTax duty paid code</description>
+        <externalId>false</externalId>
+        <label>eTax Duty Paid Code</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>eTax_Product_Code__c</fullName>
+        <description>eTax product code</description>
+        <externalId>false</externalId>
+        <label>eTax Product Code</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllProducts</fullName>
